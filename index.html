@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <link
+            rel="stylesheet"
+            href="fonts/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css"
+        />
+        <title>Filter Project</title>
+    </head>
+    <body>
+        <header class="container-filter">
+            <h1 class="title">منو کافه مــــــا :)</h1>
+            <div class="box-btn">
+                <button id="cake" data-name="all">کل منو</button>
+
+                <button id="cake" data-name="cake">کیک</button>
+                <button id="sweet" data-name="sweet">خوشمزه</button>
+                <button id="dougnut"data-name="dougnut">دونات</button>
+                <button id="cupCake"data-name="cupCake">کاپ کیک</button>
+            </div>
+
+            <form class="form">
+                <input type="text" id="filter-input" class="filter-input" />
+                <i class="fa fa-search"></i>
+            </form>
+            <!-- /// show to item of our coffetrai  -->
+            <section class="container-boxItem">
+                <div class="item cake" data-name="کیک">
+                    <img src="./images/cake-2.jpeg" />
+                    <div class="box-info">
+                        <h4>کیک</h4>
+                        <h3>7 تومان</h3>
+                    </div>
+                </div>
+                <div class="item cake" data-name="کیک">
+                    <img src="./images/cake-1.jpeg" />
+                    <div class="box-info">
+                        <h4>کیک</h4>
+                        <h3>10 تومان</h3>
+                    </div>
+                </div>
+
+                <div class="item cupCake" data-name="کاپ کیک">
+                    <img src="./images/cupcake-1.jpeg" />
+                    <div class="box-info">
+                        <h4>کاپ کیک</h4>
+                        <h3>6 تومان</h3>
+                    </div>
+                </div>
+
+                <div class="item sweet" data-name="خوشمزه">
+                    <img src="./images/sweets-3.jpeg" />
+                    <div class="box-info">
+                        <h4>خوشمزه</h3>
+                        <h3>12 تومان</h3>
+                    </div>
+                </div>
+                <div class="item cake" data-name="کیک">
+                    <img src="./images/cake-3.jpeg" />
+                    <div class="box-info">
+                        <h4>کیک</h3>
+                        <h3>5 تومان</h3>
+                    </div>
+                </div>
+                <div class="item cupCake" data-name="کاپ کیک">
+                    <img src="./images/cupcake-3.jpeg" />
+                    <div class="box-info">
+                        <h4>کاپ کیک</h4>
+                        <h3>10 تومان</h3>
+                    </div>
+                </div>
+                <div class="item dougnut"  data-name="دونات">
+                    <img src="./images/doughnut-3.jpeg" />
+                    <div class="box-info">
+                        <h4>دونات</h4>
+                        <h3>7 تومان</h3>
+                    </div>
+                </div>
+                <div class="item cupCake" data-name="کاپ کیک">
+                    <img src="./images/cupcake-2.jpeg" />
+                    <div class="box-info">
+                        <h4>کاپ کیک</h4>
+                        <h3>4 تومان</h3>
+                    </div>
+                </div>
+                <div class="item sweet" data-name="خوشمزه">
+                    <img src="./images/sweets-2.jpeg" />
+                    <div class="box-info">
+                        <h4>خوشمزه</h3>
+                        <h3>1 تومان</h3>
+                    </div>
+                </div>
+                <div class="item dougnut"  data-name="دونات">
+                    <img src="./images/doughnut-2.jpeg" />
+                    <div class="box-info">
+                        <h4>دونات</h3>
+                        <h3>5 تومان</h3>
+                    </div>
+                </div>
+                <div class="item sweet" data-name="خوشمزه">
+                    <img src="./images/sweets-1.jpeg" />
+                    <div class="box-info">
+                        <h4>خوشمزه</h4>
+                        <h3>15 تومان</h3>
+                    </div>
+                </div>
+
+                <div class="item dougnut" data-name="دونات">
+                    <img src="./images/doughnut-1.jpeg" />
+                    <div class="box-info">
+                        <h4>دونات</h4>
+                        <h3>8 تومان</h3>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+        <script src="app.js"></script>
+    </body>
+</html>
