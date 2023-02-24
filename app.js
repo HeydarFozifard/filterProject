@@ -1,13 +1,5 @@
 //vars
 
-let allMenuBtn = document.getElementById("all-menu");
-let cakeBtn = document.getElementById("cake");
-let sweetBtn = document.getElementById("sweet");
-let dougnutBtn = document.getElementById("dougnut");
-let cupCakeBtn = document.getElementById("cupCake");
-let filterInputBtn = document.getElementById("filter-input");
-let showBox = document.getElementById("container-item");
-
 let getItems = document.querySelectorAll(".item");
 let getBtns = document.querySelectorAll("button");
 
